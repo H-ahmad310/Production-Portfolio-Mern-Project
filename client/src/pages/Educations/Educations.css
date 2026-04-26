@@ -1,0 +1,48 @@
+.education{
+    padding: 10px 0px;
+    margin: 50px 0px;
+    margin-left: 57px;
+    background-color: rgba(128, 128, 128, 0.103);
+}
+
+.education hr {
+    color: #138781;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.education h2{
+    font-weight: bold;
+    color: #138781;
+}
+
+.education h3{
+    color: #138781;
+}
+
+.education h4{
+    color: #1e1e2c;
+}
+
+.education .vertical-timeline-element--work{
+    margin-left: 60px;
+}
+
+@media (max-width: 600px) {
+    .education{
+        padding: 0;
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .education h2{
+        padding-top: 20px;
+
+    }
+
+    .education hr{
+        width: 280px;
+    }
+
+
+}
