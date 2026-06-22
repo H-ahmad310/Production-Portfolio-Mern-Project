@@ -20,9 +20,9 @@ app.use(express.static(path.join(__dirname,"./client/build")))
 //routes
 app.use("/Email",require("./routes/portfolioRoutes"))
 
-app.get('*',function(req,res){
-    res.sendFile(path.join(__dirname ,"./client/build/index.html"))
-})
+app.get('/*', function(req, res) {
+    res.sendFile(path.join(__dirname, './client/build/index.html'));
+});
 //ports
 const PORT= 3000
 
